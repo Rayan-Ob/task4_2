@@ -338,9 +338,9 @@ header,
 }
 
 .ro-square {
-    width: 300px;
-    height: 300px;
-    top: 0;
+    width: 400px;
+    height: 250px;
+    top: -10px;
     z-index: -3;
     background-color: #d0e1f7;
 }
