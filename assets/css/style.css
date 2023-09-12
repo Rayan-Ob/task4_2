@@ -1,0 +1,518 @@
+/* start my frame */
+.ro-bg-blue {
+    background-color: #136ad5;
+
+}
+
+.ro-color-blue {
+    color: #00aeff;
+}
+
+.ro-color-dark-blue {
+    color: #136ad5;
+}
+
+.ro-bg-gray {
+    background-color: #eaebec;
+}
+
+.ro-fs-small {
+    font-size: 14px;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.ro-color-ligh-black {
+    color: #3b3b3b;
+}
+
+.ro-font-times {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.ro-fs-sm {
+    font-size: 14px;
+}
+
+
+.ro-co-silver {
+    font-size: 14px;
+    color: #b2b7bf;
+}
+
+.ro-width-p {
+    width: 40%;
+}
+
+.ro-width2-p {
+    width: 75%;
+    margin: 2px auto;
+}
+
+.ro-bg-light-btn {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: #00aeff;
+    font-size: 12px;
+}
+
+.ro-bg-blue-btn {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: #136ad5;
+    font-size: 12px;
+}
+
+.ro-bg-white-btn {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 12px;
+    color: #136ad5;
+}
+
+/* .ro-bg-white-btn:hover{
+    color: #136ad5;
+} */
+
+.ro-mr{
+    margin-right: 10px;
+}
+
+
+.ro-padding-12 {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.ro-margin-title {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.ro-pad-section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+/* end my frame */
+
+
+header,
+.ro-img {
+
+    background-image: url("../images/children-class.jpg");
+    background-color: #357eda;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.hero {
+
+    background-color: rgb(49, 123, 215, 0.7);
+    height: 100vh;
+    flex-direction: column;
+}
+
+.ro-color-blue {
+    color: #00aeff;
+}
+
+.navbar {
+    position: sticky;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+
+}
+
+.navbar-toggler-icon {
+    color: white;
+    outline: none;
+}
+
+.navbar-toggler-icon:hover,
+.navbar-toggler-icon:hover {
+    color: white;
+}
+
+/* start btn navbar */
+
+.navbar-toggle{
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    padding: 0;
+    outline: none;
+    border: none;
+
+}
+
+.navbar-toggler{
+    font-size: 30px;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+.navbar-toggle i:nth-child(2){
+    display: none;
+}
+
+.navbar-toggle:focus i:first-child{
+    display: none;
+}
+.navbar-toggle:focus i:nth-child(2){
+    display: inline;
+    
+}
+
+/* end btn navbar */
+
+
+.navbar-nav li {
+    opacity: 0.5;
+}
+
+.navbar-nav li:hover,
+.navbar-nav li:active,
+.navbar-nav li:focus {
+    opacity: 1;
+}
+
+
+/* nav scroll */
+#navbar {
+    background-color: #333; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -60px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 80;
+
+  }
+  
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+/* end nav scroll */
+.ro-text-hero {
+    align-self: center;
+    padding: 50px 20px;
+    margin: 40px auto;
+    margin-bottom: 0;
+    width: 40%;
+
+}
+
+.ro-p-fontfamily {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 47px;
+}
+
+
+/*---------- end hero in header-----*/
+
+
+
+
+.ro-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box {
+    height: 80px;
+    width: 250px;
+    background-color: #f3f7fd;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.ro-icon {
+    color: #00aeff;
+    background-color: white;
+    padding: 7px 9px;
+    border-radius: 10px;
+}
+
+
+/* end browe top category */
+
+
+/* start instructor*/
+
+
+.instructor img {
+    max-width: 450px;
+    height: 500px;
+    margin-top: -90px;
+}
+
+
+
+/* end instructor*/
+
+/*start education*/
+.ro-2-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.ro-2-box {
+    box-sizing: border-box;
+    border: 1px solid #b2b7bf;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.ro-icon-circle {
+    border: 1px solid #b2b7bf;
+    border-radius: 50%;
+    padding: 18px;
+    color: #357eda;
+    font-size: 18px;
+}
+
+.ro-2-box h5 {
+    color: #357eda;
+    margin: 20px auto;
+}
+
+
+
+/* end */
+
+/* start right course */
+
+
+.ro-img-height {
+    height: 249px;
+}
+
+/* end */
+
+.ro-bg {
+    background-color: rgb(49, 123, 215, 0.7);
+    height: 650px;
+
+}
+
+.ro-bg p {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ro-width-video {
+    max-width: 450px;
+    max-height: 320px;
+    z-index: 50;
+}
+
+.ro-square {
+    width: 300px;
+    height: 300px;
+    top: 0;
+    z-index: -3;
+    background-color: #d0e1f7;
+}
+
+.ro-image {
+    height: 100%;
+}
+
+.ro-3-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+/*carousel*/
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #136ad5;
+}
+
+.carousel .carousel-indicators {
+    position: absolute;
+    bottom: -10px;
+}
+
+.ro-carousel {
+    height: 500px;
+}
+
+
+
+.ro-80 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+/* end carousel */
+
+/* start choose us */
+.ro-wd-img {
+    width: 300px;
+}
+
+.ro-sm-wd {
+    width: 150px;
+}
+
+
+/* start footer */
+.ro-btn-footer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+
+}
+
+.ro-btn-footer:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.ro-opacity {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.ro-opacity:hover,
+.ro-opacity:focus {
+    opacity: 1;
+}
+
+.ro-footer-img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+
+/* end footer */
+
+body{
+    overflow-x: hidden;
+}
+
+
+@media screen and (max-width:992px) {
+    .ro-c {
+        width: 80%;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .ro-grid,
+    .ro-2-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box{
+        width: 200px;
+    }
+    .ro-margin-right {
+        margin-right: calc(3 * (rem));
+    }
+
+    .instructor img {
+        max-width: 250px;
+        height: 400px;
+        margin-top: 15px;
+    }
+
+    .ro-3-grid {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ro-width-p {
+        width: 60%;
+    }
+
+    .ro-square {
+        display: none;
+    }
+
+    .ro-flex {
+        flex-wrap: wrap;
+    }
+
+    .ro-width-video {
+        max-height: 170px;
+
+    }
+    .ro-text-hero{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+    .ro-grid,
+    .ro-2-grid {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .box {
+        justify-self: center;
+    }
+    .ro-wd-img{
+        max-width: 250px;
+    }
+    .ro-width-video{
+        max-width: 250px;
+    }
+   
+    
+.ro-carousel {
+    height: 550px;
+}
+
+}
