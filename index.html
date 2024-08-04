@@ -12,11 +12,7 @@
 
 <body>
   <header>
-    <div id="navbar">
-      <a href="#home">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-    </div>
+
     <div class="hero d-flex ">
       <!--start head hero-->
       <div class=" container d-flex justify-content-between flex-wrap text-white">
@@ -51,7 +47,6 @@
               ria-expanded="false" aria-label="Toggle navigation ">
 
               <i class="fas fa-bars navbar-toggler text-white"></i>
-              <i class="fa-solid fa-xmark navbar-toggler" style="color: #ff0000;"></i>
 
             </button>
 
@@ -707,13 +702,13 @@
     <!--end carousel-->
 
     <!--start choose us-->
-    <div class="container d-flex justify-content-between gap-5 ro-pad-section ro-flex ">
+    <div class="container d-flex justify-content-between gap-5 ro-pad-section ro-flex mt-5">
       <div class="mt-2">
         <img src="./assets/images/Cover-Topic.jpg" class="ro-wd-img" alt="children">
       </div>
       <div>
         <p class="ro-color-dark-blue ro-font-times fs-2 text-capitalize">why choose us</p>
-        <p class="ro-color-ligh-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, earum assumenda
+        <!-- <p class="ro-color-ligh-black">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, earum assumenda
           quam exercitationem modi eius
           consectetur temporibus omnis magnam optio.</p>
 
@@ -732,6 +727,50 @@
         <p><i class="fa-solid fa-plus"></i> &ThickSpace;Lorem ipsum dolor sit amet.</p>
         <p><i class="fa-solid fa-plus"></i> &ThickSpace;Lorem ipsum dolor sit.</p>
       </div>
+    </div> -->
+        <div class="accordion" id="myAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"> ipsum dolor sit amet consectetur adipisicing elit. Sit, earum assumenda
+                quam exercitationem modi eius
+                consectetur temporibus omnis magnam optio.</button>
+
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+              <div class="card-body">
+
+                <div class="d-flex gap-3 mt-3 px-3 mb-5 ro-flex">
+                  <img src="./assets/images/children-class.jpg" alt="children" class="ro-sm-wd">
+                  <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique provident corrupti laboriosam
+                      nam. Ad
+                      unde praesentium in, mollitia id porro?</p>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nostrum odit voluptas.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                  Lorem ipsum dolor sit amet.
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                <div class="card-body mt-3 px-3 mb-5">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
     <!--end choose us-->
 
@@ -746,7 +785,7 @@
             <!--Grid row-->
             <div class="row">
               <!-- Grid column -->
-              <div class="col-md-4 col-lg-4 col-xl-4  mt-3">
+              <div class="col-lg-2 mx-auto mt-3 text-center my-5" >
                 <p class="text-capitalize mb-4 ro-font-times fs-5 ">
                   about us
                 </p>
@@ -756,7 +795,7 @@
                   elit.
                 </p>
                 <p class="text-capitalize ro-font-times my-4 ">connect</p>
-                <p class="col-md-5 col-lg-4 ml-lg-0 d-flex justify-content-center mx-5">
+                <p class="col-md-5 col-lg-4 ml-lg-0 d-flex justify-content-center  mx-auto">
                   <a class="btn btn-outline-light btn-floating ro-btn-footer" href="#!" role="button"><i
                       class="fab fa-facebook-f"></i></a>
 
@@ -785,7 +824,7 @@
 
 
               <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-center">
+              <div class="col-lg-2 mx-auto mt-3 text-center my-5">
                 <p class="text-capitalize mb-4 ro-font-times fs-5">
                   projects
                 </p>
@@ -810,7 +849,7 @@
 
               <!-- Grid column -->
 
-              <div class="col-lg-2 mx-auto mt-3 text-center">
+              <div class="col-lg-2 mx-auto mt-3 text-center my-5">
                 <p class="text-capitalize mb-4 ro-font-times fs-5">
                   our work
                 </p>
@@ -835,7 +874,7 @@
               <!-- Grid column -->
 
               <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-center">
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-center my-5">
                 <p class="text-capitalize mb-4 ro-font-times fs-5">
                   contact
                 </p>
